@@ -13,25 +13,34 @@ The project is also intended to serve as a foundation for future expansion beyon
 
 ---
 
-## Project Objectives
-- Design and implement a functional farming simulation system  
-- Develop a structured and interactive frontend interface  
-- Build modular backend systems to support gameplay mechanics  
-- Practice collaborative software development  
-- Create a scalable project that can be extended after completion  
-
----
-
 ## Features
 The project includes (or plans to include):
 
 - Player movement and interaction systems  
 - Farming mechanics (planting, growing, harvesting crops)  
-- Inventory and item management systems  
+- Two 3x3 interactive farming plots
+- Inventory and item management
 - Shop or economy-related functionality  
-- Time-based or event-driven gameplay systems  
-- User interface elements and game screens  
-- Backend logic supporting all gameplay systems  
+- Time-based crop growth  
+- User interface and game screens
+- Sound effects and background music 
+- Backend systems supporting gameplay mechanics
+
+---
+
+## Gameplay
+
+### Farming System
+![Farming gameplay](Gameplay%20Images/planting.png)
+Players can interact with the farming plot to play, grow, and harvest crops
+
+### Shop
+![Farming gameplay](Gameplay%20Images/shopUI.png)
+The shop allows players to purchase items and sell harvested crops as part of the game's economy.
+
+### Inventory
+![Farming gameplay](Gameplay%20Images/inventory.png)
+The inventory system manages items held by the playre and interacts with the farming and shop systems.
 
 ---
 
@@ -43,19 +52,16 @@ The project includes (or plans to include):
 ---
 
 ## Project Structure
-The project is organized into two primary components:
 
-### Frontend
-- Handles all visual elements and user interaction  
-- Includes UI layout, menus, and player-facing systems  
-- Responsible for displaying and controlling game flow  
+- application/ - Java and JavaFX source code
+- assets/ - Visual assets used by the game
+- audio/ - Sound effects and background music
+- fonts/ - Fonts used by the interface
+- Title/ - Title screen resources
+- Gameplay Images/ - Screenshots demonstrating gameplay and UI
+- Farming Simulator Presentation.pdf - Fianl projects presentation
 
-### Backend
-- Contains gameplay logic and system functionality  
-- Manages data, mechanics, and core systems  
-- Provides functionality used by the frontend  
-
-Each class and file includes additional documentation describing its role within the system.
+The source code is divided into classes responsible for different parts of the game, including player, game world, inventory, shop, crops, farming plots, interactions, and user interface.
 
 ---
 
@@ -81,8 +87,22 @@ Each class and file includes additional documentation describing its role within
 
 ---
 
+## What I Learn
+Developing Farmer's Haven gave me experience designing a larger object-oriented application with multiple interconnected systems. I gained additional experience with Java and JavaFX, event-driven programming, user interface development, debugging, and integrating independetly developed components into a single application
+
+The project also introduced me to the challenges of coordinating development across a team while maintaining a consistent overall design
+
+---
+
+## Project Presentation
+The repository includes the fianl project presentation:
+
+[View the Final Project Presentation](Farming%20Simulator%20Presentation.pdf)
+
+---
+
 ## Development Context
-This project was created as part of a computer science course, but was designed with future expansion in mind. The structure and systems were planned to support additional features beyond the course requirements.
+Farmer's Haven was developed as an academic project but originated as an independent project idea. The project provided a foundation for exploring game development and contributed to my decision to continue developing games independently.
 
 ---
 
@@ -92,4 +112,6 @@ This project represents both academic work and independent system design. It als
 ---
 
 ## Author
-Arianna Childs
+Arianna Childs - Primary Designer and Developer
+Mackenzie Mann - Contributor
+Halden Kerzner - Contributor
